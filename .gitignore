@@ -19,3 +19,18 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/.env
+backend/*.db
+
+# Node / Next.js
+node_modules/
+.next/
+dashboard/.env.local
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
